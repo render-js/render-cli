@@ -1,0 +1,45 @@
+<template>
+    <one>
+        <div id="nav">
+            <ul>
+                <li ref="kk">首页</li>
+                <li v-on:click="test">广场</li>
+                <li>话题</li>
+            </ul>
+        </div>
+        <div id="content" style="max-width: 1140px;margin: 0 auto;height: 800px">
+            <ul>
+                <li>你好</li>
+                <li>我们</li>
+            </ul>
+        </div>
+    </one>
+    <style>
+        #nav[cpn=one]{
+            height: 55px;
+            background-color: #4012aa;
+        }
+        #nav[cpn=one] ul{
+            padding: 0;
+            height: 55px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        #nav[cpn=one] ul li{
+            list-style: none;
+            width: 120px;
+            height: 55px;
+            font-size: 18px;
+            color: white;
+            line-height: 55px;
+            text-align: center;
+            vertical-align: middle;
+            cursor: pointer;
+        }
+        #content[cpn=one]{
+            background-color: antiquewhite;
+        }
+    </style>
+</template>

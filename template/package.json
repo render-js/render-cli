@@ -1,0 +1,28 @@
+{
+  "name": "render-cli",
+  "version": "1.0.0",
+  "description": "render-js",
+  "module": "module",
+  "main": "main.js",
+  "scripts": {
+    "build": "webpack",
+    "serve": "webpack-dev-server --progress --open --port 9090"
+  },
+  "author": "mutian",
+  "license": "ISC",
+  "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.3",
+    "glob": "^8.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "raw-loader": "^4.0.2",
+    "style-loader": "^3.3.1",
+    "webpack": "5.76.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "muyomu-render": "1.0.159",
+    "muyomu-render-status": "1.0.7",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
