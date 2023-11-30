@@ -1,6 +1,6 @@
 {
-  "name": "render-cmd",
-  "version": "1.0.6",
+  "name": "render-npx",
+  "version": "1.0.0",
   "description": "The client tools to generate a project for renderJs",
   "author": {
     "name": "mutian",
@@ -10,13 +10,12 @@
   "type": "module",
   "license": "MIT",
   "bin": {
-    "render": "index.js"
+    "render-npx": "index.js"
   },
   "dependencies": {
     "chalk": "^5.3.0",
     "commander": "^11.0.0",
-    "download-git-repo": "^3.0.2",
-    "inquirer": "^9.2.7",
+    "download-git-repo": "^0.0.2",
     "log-symbols": "^5.1.0"
   }
 }
