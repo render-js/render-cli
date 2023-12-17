@@ -6,7 +6,7 @@ import chalk from "chalk";
 
 program
     .version("1.0.0","-v,--version")
-    .arguments("<cmd> [others...]")
+    .arguments("<cmd>")
     .action(function (cmd){
         console.log(logSymbols.error,chalk.red("command:"),chalk.red(cmd),chalk.red("is unknown!"))
     })
